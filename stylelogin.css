@@ -1,0 +1,46 @@
+.theme-layout {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+div.block {
+    float: left;
+    width: 100%;
+    padding: 120px 0;
+    position: relative;
+    z-index: 1;
+}
+.signup {
+    padding: 30px;
+    box-shadow: 0 0 28px 0 orange;
+    text-align: center;
+}
+.subtitle {
+    color: #2f2f2f;
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.dark-btn {
+    background: #000000 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: montserrat;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.dark-btn:hover{
+    color:orange;
+}
+input#address {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
